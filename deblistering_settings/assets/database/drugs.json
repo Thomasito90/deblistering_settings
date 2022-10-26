@@ -1,0 +1,100 @@
+[
+  {
+    "gtin": "1",
+    "drugName": "Vitamin Z (XYZ Pharmaceuticals Ltd) 28 tablets",
+    "ampp": "593145654253",
+    "amp": "2345690542",
+    "vmp": "24256545",
+    "vmpp": "02345496",
+    "packSize": "28",
+    "blisters": "2",
+    "blisterPills": "14",
+    "firstChoiceMachine": "electricStripfoil",
+    "electricStripfoil": 
+      {
+        "magazineWidth": "15",
+        "brushHeight": "20",
+        "toeSlidePosition": "10",
+        "rollerNumber": "1",
+        "rollerCarriageNipDrum": "25",
+        "speed": "6"
+      },
+    "electricMangle":
+      {
+        "position": "Long",
+        "rollerNumber": "1",
+        "rollerGap": "15"
+      },
+    "manualMangle":
+      {
+        "position": "Long",
+        "rollerNumber": "1",
+        "rollerGap": "15"
+      }
+  },
+  {
+    "gtin": "2",
+    "drugName": "Vitamin X (Cribbs Healthcare Ltd) 56 tablets",
+    "ampp": "593145654253",
+    "amp": "2345690542",
+    "vmp": "24256545",
+    "vmpp": "02345496",
+    "packSize": "56",
+    "blisters": "4",
+    "blisterPills": "14",
+    "firstChoiceMachine": "electricMangle",
+    "electricStripfoil": {},
+    "electricMangle":
+      {
+        "position": "Short",
+        "rollerNumber": "1",
+        "rollerGap": "10"
+      },
+    "manualMangle":
+      {
+        "position": "Short",
+        "rollerNumber": "1",
+        "rollerGap": "10"
+      }
+  },
+  {
+    "gtin": "3",
+    "drugName": "Tamsucribbsosin (Unit 55 Ltd) 84 tablets",
+    "ampp": "593145654253",
+    "amp": "2345690542",
+    "vmp": "24256545",
+    "vmpp": "02345496",
+    "packSize": "84",
+    "blisters": "3",
+    "blisterPills": "28",
+    "firstChoiceMachine": "electricStripfoil",
+    "electricStripfoil":
+      {
+        "magazineWidth": "20",
+        "brushHeight": "15",
+        "toeSlidePosition": "10",
+        "rollerNumber": "3",
+        "rollerCarriageNipDrum": "5",
+        "speed": "3"
+      },
+    "electricMangle": 
+      {},
+    "manualMangle":
+      {}
+  },
+  {
+    "gtin": "4",
+    "drugName": "Pilltalopram (NanoBiotics Ltd) 84 tablets",
+    "ampp": "593145654253",
+    "amp": "2345690542",
+    "vmp": "24256545",
+    "vmpp": "02345496",
+    "packSize": "84",
+    "blisters": "3",
+    "blisterPills": "28",
+    "firstChoiceMachine": "none",
+    "electricStripfoil": {},
+    "electricMangle": {},
+    "manualMangle": {}
+  }
+]
