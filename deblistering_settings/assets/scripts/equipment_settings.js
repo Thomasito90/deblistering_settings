@@ -81,11 +81,16 @@ function showByHand() {
 function find() {
     const barcode = getUserInput();
 
+    let drugFound = false;
+
     for (let i = 0; i < drugs.length; i++) {
 
         let drug = drugs[i];
-
+        
         if (drug.gtin === barcode) {
+
+            drugFound = true;
+
             findBtn.style.display = 'none';
             userInput.style.display = 'none';
             scanBarcode.style.display = 'none';
@@ -115,21 +120,18 @@ function find() {
             let manualMangleLength = Object.keys(drug.manualMangle).length;
 
             if (electricStripfoilLength == 0) {
-                console.log(electricStripfoilBtn.style.property);
                 electricStripfoilBtn.setAttribute("disabled", "");
             } else {
                 electricStripfoilBtn.removeAttribute("disabled", "");
             }
 
             if (electricMangleLength == 0) {
-                console.log(electricMangleBtn.style.property);
                 electricMangleBtn.setAttribute("disabled", "");
             } else {
                 electricMangleBtn.removeAttribute("disabled", "");
             }
 
             if (manualMangleLength == 0) {
-                console.log(manualMangleBtn.style.property);
                 manualMangleBtn.setAttribute("disabled", "");
             } else {
                 manualMangleBtn.removeAttribute("disabled", "");
@@ -152,6 +154,14 @@ function find() {
             }
 
         }
+    }
+
+    if (drugFound === false) {
+        console.log('Drug not found');
+        drugNotFound.removeAttribute("hidden", "");
+    } else {
+        console.log('Drug found');
+        drugNotFound.setAttribute("hidden", "");
     }
 }
 
