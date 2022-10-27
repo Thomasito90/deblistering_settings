@@ -17,6 +17,11 @@
         .btn-test123:hover {
             filter: brightness(105%);
             color: white; }
+        
+        .btn-test123:disabled {
+            filter: brightness(105%);
+            background-color: gray !important;
+            color: white; }
 
     }
 
@@ -40,5 +45,10 @@
             filter: brightness(105%);
             color: white;
         }
+
+        .btn-test123:disabled {
+            filter: brightness(105%);
+            background-color: gray !important;
+            color: white; }
 
 }
